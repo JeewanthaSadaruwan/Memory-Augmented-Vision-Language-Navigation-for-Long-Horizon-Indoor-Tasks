@@ -1,0 +1,4 @@
+# PointNav test config placeholder
+seed: 0
+scene: null
+max_steps: 500

@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets and symlinks
+data
+
+# Generated outputs
+outputs/images/*
+outputs/videos/*
+outputs/logs/*
+
+# Keep output directories in git
+!outputs/images/.gitkeep
+!outputs/videos/.gitkeep
+!outputs/logs/.gitkeep
+
