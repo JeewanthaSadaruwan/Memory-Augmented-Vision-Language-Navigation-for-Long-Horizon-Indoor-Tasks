@@ -2,6 +2,35 @@
 
 Small research workspace for Habitat-Lab PointNav experiments, simple rule-based agents, and observation/debug output generation.
 
+## Project Phases
+
+<details>
+<summary>Phase 1</summary>
+
+Phase 1 focused on verifying that the Habitat environment is working end to end and that a single PointNav episode can be loaded and inspected.
+
+Completed in this phase:
+- Verified the Habitat Python import and local environment setup.
+- Confirmed that the simulator environment can be created successfully.
+- Loaded one PointNav episode with `env.reset()`.
+- Inspected the returned observations for RGB, depth, and point-goal data.
+- Saved sample RGB and depth outputs to `outputs/images/`.
+
+Scripts used in Phase 1:
+- `scripts/phase_01/test_habitat_import.py` for import and environment checks.
+- `scripts/phase_01/test_env.py` for simulator/environment validation.
+- `scripts/phase_01/save_observation.py` for loading one episode and saving RGB/depth observations.
+- `scripts/phase_01/simple_pointnav_agent.py` as the initial PointNav experimentation script.
+
+</details>
+
+<details>
+<summary>Phase 2</summary>
+
+Phase 2 details will be added here as the next set of experiments is defined.
+
+</details>
+
 ## Data and Output Folders
 This repository does **not** track the `data/` and `outputs/` folders in Git.
 
