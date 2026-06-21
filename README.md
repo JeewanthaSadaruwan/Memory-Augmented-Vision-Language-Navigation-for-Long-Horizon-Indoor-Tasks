@@ -20,7 +20,20 @@ Scripts used in Phase 1:
 - `scripts/phase_01/test_habitat_import.py` for import and environment checks.
 - `scripts/phase_01/test_env.py` for simulator/environment validation.
 - `scripts/phase_01/save_observation.py` for loading one episode and saving RGB/depth observations.
-- `scripts/phase_01/simple_pointnav_agent.py` as the initial PointNav experimentation script.
+- `scripts/phase_01/agent1_0_pn.py` as the initial PointNav experimentation script that uses the `src.agent1pn` package.
+
+### Running the PointNav Agent
+
+From the repository root with the Habitat environment:
+
+```bash
+conda activate habitat-display
+python ./scripts/phase_01/agent1_0_pn.py
+```
+
+The runner imports from the `src.agent1pn` package, which contains:
+- `src.agent1pn.agents`: Rule-based PointNav agent policy
+- `src.agent1pn.utils`: Habitat configuration, path helpers, and visualization utilities
 
 </details>
 

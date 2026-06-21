@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent1pn"
+version = "0.1.0"
+description = "Rule-based PointNav agent using Habitat"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]
